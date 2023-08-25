@@ -26,7 +26,7 @@ def checkStr(location, user):
             if user[i] == " ":
                 x += 1
         if x != 5:
-            print('broken string')
+            raise ValueError("Broken String")
     except:
         print('broken string')
 
