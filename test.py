@@ -38,7 +38,7 @@ while z < 2:
                 if user[i] == " ":
                     x += 1
             if x != 5:
-                print('broken string')
+                raise ValueError("Broken String")
             else:
                 print(userHex)
         except:
